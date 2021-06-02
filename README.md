@@ -1,2 +1,2 @@
 # IoT_SMSB
-Save Me Smart Band es una pulsera inteligente que utiliza sensores de la más alta calidad para detectar el covid-19 de manera temprana con la intención de salvar la vida de quien la porta.
+Save Me Smart Band es un proyecto en desarrollo, realizado con la intención de hacer avances que contribuyan al diagnóstico y tratamiento de enfermedades respiratorias como el COVID-19, siempre en búsqueda de salvar vidas valiosas.

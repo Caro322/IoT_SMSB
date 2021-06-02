@@ -1,0 +1,132 @@
+.u-section-11 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-11 .u-blog-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: 548px;
+  height: auto;
+  grid-auto-rows: 100%;
+}
+
+.u-section-11 .u-repeater-1 {
+  grid-auto-columns: 100%;
+  grid-template-columns: 100%;
+  grid-auto-rows: 100%;
+  grid-gap: 22px 22px;
+}
+
+.u-section-11 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-11 .u-image-1 {
+  width: 564px;
+  left: 0;
+  right: auto;
+}
+
+.u-section-11 .u-text-1 {
+  font-size: 1.25rem;
+  margin: 67px 0 0 586px;
+}
+
+.u-section-11 .u-text-2 {
+  font-weight: 700;
+  margin: -375px 0 0 586px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-11 .u-sheet-1 {
+    min-height: 595px;
+  }
+
+  .u-section-11 .u-blog-1 {
+    min-height: 475px;
+  }
+
+  .u-section-11 .u-image-1 {
+    width: 406px;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-left: 386px;
+  }
+
+  .u-section-11 .u-text-2 {
+    margin-left: 386px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-11 .u-sheet-1 {
+    min-height: 897px;
+  }
+
+  .u-section-11 .u-blog-1 {
+    margin-top: 52px;
+    margin-bottom: 52px;
+    min-height: 548px;
+  }
+
+  .u-section-11 .u-image-1 {
+    width: 661px;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-left: 166px;
+  }
+
+  .u-section-11 .u-text-2 {
+    margin-left: 166px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-11 .u-sheet-1 {
+    min-height: 804px;
+  }
+
+  .u-section-11 .u-blog-1 {
+    margin-top: 53px;
+    margin-bottom: 53px;
+  }
+
+  .u-section-11 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-11 .u-image-1 {
+    width: 564px;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-left: 26px;
+    margin-top: -424px;
+  }
+
+  .u-section-11 .u-text-2 {
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-11 .u-sheet-1 {
+    min-height: 621px;
+  }
+
+  .u-section-11 .u-blog-1 {
+    margin-top: 51px;
+    margin-bottom: 51px;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-11 .u-text-2 {
+    margin-left: 0;
+  }
+}

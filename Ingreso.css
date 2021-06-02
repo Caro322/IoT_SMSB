@@ -1,0 +1,118 @@
+.u-section-1 {
+  background-image: url(https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2F356a876fc5c9e1a176db35a6cbe16b6367797cc132ac139b35dba7b1c16a6fe31f87c6ca536af44450fb8ddbcfc6dee974fcbe76b4727fe86fc65e_1280.jpg?v=1620951289080);
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 778px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 512px;
+  min-height: 573px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  height: auto;
+  margin: 94px auto 60px 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 97px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+  width: 452px;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-form-group-1 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-2 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-3 {
+  width: 100%;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 642px;
+  }
+
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 492px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 407px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    background-position: 53.53% 74.53%;
+    background-size: auto 125%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 653px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 380px;
+    min-height: 533px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    background-position: 59.36% 79.12%;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 513px;
+    width: 280px;
+    margin-top: 80px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}

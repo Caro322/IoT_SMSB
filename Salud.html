@@ -1,0 +1,251 @@
+<?php
+//seguridad de sessiones paginacion
+session_start();
+error_reporting(0);
+$varsesion= $_SESSION['floatingInput'];
+if($varsesion== null || $varsesion=''){
+header("Location:index.html");
+die();
+}
+?>
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Dental Care Services, Preventive services include:, About Our Dental Clinicand why choose us?, Our Services, GeneralDentist &amp; Prosthodontist, High Quality Treatment, contact us, INTUITIVE">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Save Me Smart Band</title>
+    <script type="text/javascript" src="nombre.js" ></script>
+    <script type="text/javascript" src="analitica.js" ></script>
+    <link href="https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2F20b56041-f718-4457-a376-f30de132b00c.image.png?v=1616423541523" rel="icon">
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Inicio.css" media="screen">
+<link rel="stylesheet" href="salud.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.14.0, nicepage.com">
+    
+    
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "index.html"
+}</script>
+    <meta property="og:title" content="Inicio">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body data-home-page="Inicio.html" data-home-page-title="Inicio" class="u-body"><header class="u-clearfix u-custom-color-3 u-header u-header" id="sec-de6f"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="inicio.html" style="padding: 10px 20px;">Inicio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="Sobre-nosotros1.html" style="padding: 10px 20px;">Sobre nosotros</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="Salud.html" style="padding: 10px 20px;">Salud</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="Encuesta.html" style="padding: 10px 20px;">Encuesta</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="Noticias1.html" style="padding: 10px 20px;">Actualidad</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="Contactanos1.html" style="padding: 10px 20px;">Contactanos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-light-2 u-text-body-alt-color u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Cerrar Sesión</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="inicio.html" style="padding: 10px 20px;">Inicio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Sobre-nosotros1.html" style="padding: 10px 20px;">Sobre nosotros</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Salud.html" style="padding: 10px 20px;">Salud</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Encuesta.html" style="padding: 10px 20px;">Encuesta</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Noticias1.html" style="padding: 10px 20px;">Actualidad</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contactanos1.html" style="padding: 10px 20px;">Contáctanos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cerrar.php" style="padding: 10px 20px;">Cerrar Sesión</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+       <h3 class="u-text u-text-custom-color-1 u-text-1">
+          <span class="u-text-white">SAVE ME</span>&nbsp; SMART BAND
+        </h3>
+        <img src="https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2FLogoSMSB3.png?v=1620790069301" alt="" class="u-image u-image-default u-preserve-proportions u-image-1" data-image-width="163" data-image-height="177">
+      </div></header>
+          <section class="u-clearfix u-custom-color-6 u-grey-5 u-section-9 d-flex justify-content-center" id="sec-390a">
+      <div class="u-clearfix u-sheet u-sheet-1 d-flex justify-content-center">
+        <h2 class="u-custom-font u-font-raleway u-text-custom-color-5">Bienvenido <span id="result-name"/> &nbsp;</h2>
+        
+        <h2 class="u-custom-font u-font-raleway u-text-custom-color-5">&nbsp;<span id="result-surname" /></h2>
+      </div>
+    </section>
+    
+    
+    <h5 class="separacion" style="color:white;">.</h5> <!-- Esto permite hacer una separación con fines estéticos-->
+    <div style="text-align: center;"> <!-- Permite centrar el texto-->
+    <h2> Tus signos vitales </h2> <!-- Se escribe el título del texto especificando su tamaño-->
+    
+    <div class="container mt-6 mb-6">
+    <div class="card " style="max-width: 2000px;" style="max-height: 500px;">
+  <div class="row g-0">
+    <div class="col">
+      <img src="https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2FZfiebre.jpg?v=1616878328598" width="580" height="425" alt="...">
+    </div>
+    <div class="col">
+      <div class="card-body">
+        <h5 class="card-title">Temperatura</h5>
+        <p class="temperatura"> <!-- Texto escrito en la tarjeta-->
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1344250/widgets/313750"></iframe>
+          </p>
+         
+          <a onclick="temperatura()" class="btn btn-dark" role="button" aria-pressed="true">Ver más</a>
+    <script type='text/javascript'>
+    function temperatura() {
+    var t;
+    
+    $.getJSON('https://api.thingspeak.com/channels/1344250/feed/last.json?api_key=SKF96HHC05WSCCXA', function(data) { 
+    t = data.field3;
+    if(t<35){
+    alert("Tu temperatura es "+t+" tienes hipotermia")
+    location.href="temperatura.html"
+    };
+    if(t>=35 & t<37.5){
+    alert("Tu temperatura es "+t+", es normal")
+    location.href="temperatura.html"
+    };
+    if(t>=37.5 & t<40){
+    alert("Tu temperatura es "+t+" tienes fiebre")
+    location.href="temperatura.html"
+    };
+    if(t>=40){
+    alert("Tu temperatura es "+t+" tienes demasiada fiebre estás en peligro")
+    location.href="temperatura.html"
+    };
+    });
+    };
+    </script>
+      </div>
+    </div>
+  </div>
+</div>
+</div>   
+
+    <h5 class="separacion" style="color:white;">.</h5> <!-- Esto permite hacer una separación con fines estéticos-->
+    <div style="text-align: center;"> <!-- Permite centrar el texto-->
+    
+    <div class="container mt-6 mb-6">
+    <div class="card " style="max-width: 2000px;" style="max-height: 500px;">
+  <div class="row g-0">
+    <div class="col">
+      <img src="https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2Fnick-fewings-4E5hIgTbP-c-unsplash.jpg?v=1616878711570" width="580" height="425" alt="...">
+    </div>
+    <div class="col">
+      <div class="card-body">
+        <h5 class="card-title">Frecuencia cardiaca</h5>
+        <p class="temperatura"> <!-- Texto escrito en la tarjeta-->
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1344250/widgets/313751"></iframe>
+          </p>
+                   <a onclick="frec()" class="btn btn-dark" role="button" aria-pressed="true">Ver más</a>
+    <script type='text/javascript'>
+    function frec() {
+    var f;
+    
+    $.getJSON('https://api.thingspeak.com/channels/1344250/feed/last.json?api_key=SKF96HHC05WSCCXA', function(data) { 
+    f = data.field5;
+    if(f<60){
+    alert("Tu frecuencia cardiaca es "+f+" tienes bradicardia")
+    location.href="frecuenciac.html"
+    };
+    if(f>=60 & f<101){
+    alert("Tu frecuencia cardiaca es "+f+", es normal")
+    location.href="frecuenciac.html"
+    };
+    if(f>=101){
+    alert("Tu frecuencia cardiaca es "+f+" tienes taquicardia")
+    location.href="frecuenciac.html"
+    };
+    });
+    };
+    </script>
+      </div>
+    </div>
+  </div>
+</div>
+</div>  
+
+    <h5 class="separacion" style="color:white;">.</h5> <!-- Esto permite hacer una separación con fines estéticos-->
+    <div style="text-align: center;"> <!-- Permite centrar el texto-->
+    
+    <div class="container mt-6 mb-6">
+    <div class="card " style="max-width: 2000px;" style="max-height: 500px;">
+  <div class="row g-0">
+    <div class="col">
+      <img src="https://cdn.glitch.com/ddaa097a-bb4c-40b3-9874-74aaad2a6dd6%2FZrespirar.jpg?v=1616878979640" width="580" height="425" alt="...">
+    </div>
+    <div class="col">
+      <div class="card-body">
+        <h5 class="card-title">Saturación de oxígeno</h5>
+        <p class="temperatura"> <!-- Texto escrito en la tarjeta-->
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1344250/widgets/313752"></iframe>
+          </p>
+          <a onclick="sat()" class="btn btn-dark" role="button" aria-pressed="true">Ver más</a>
+    <script type='text/javascript'>
+    function sat() {
+    var s;
+    
+    $.getJSON('https://api.thingspeak.com/channels/1344250/feed/last.json?api_key=SKF96HHC05WSCCXA', function(data) { 
+    s = data.field7;
+    if(s<=85){
+    alert("Tu saturación de oxígeno en sangre es "+s+" es muy baja, estás en peligro")
+    location.href="saturacion.html"
+    };
+    if(s>85 & s<90){
+    alert("Tu saturación de oxígeno en sangre es "+s+", si eres una persona menor de 70 años es demasiado baja y estás en peligro")
+    location.href="saturacion.html"
+    };
+    if(s>=90){
+    alert("Tu saturación de oxigeno en sangre es "+s+", es normal")
+    location.href="saturacion.html"
+    };
+    });
+    };
+    </script>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+
+    <h5 class="separacion" style="color:white;">.</h5> <!-- Esto permite hacer una separación con fines estéticos-->
+    <div style="text-align: center;"> <!-- Permite centrar el texto-->
+</div>
+</body>
+</html>

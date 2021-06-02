@@ -1,0 +1,4 @@
+.temperatura{
+GET https://api.thingspeak.com/channels/1344250/fields/1.json?results=2
+GET https://api.thingspeak.com/channels/1344250/feeds.json?results=2
+}
